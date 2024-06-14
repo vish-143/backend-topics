@@ -1,0 +1,40 @@
+### Post method for admin
+POST http://localhost:4000/admin/login
+Content-Type: application/json
+
+{
+"email":"appx@mitrahsoft.com",
+"password":"Admin@123"
+}
+
+###Get method for admin-login
+GET http://localhost:4000/admin/login
+
+
+### Post method for user
+POST http://localhost:4000/user/login
+Content-Type: application/json
+
+{
+"email":"sathish.t@mitrahsoft.com",
+"password":"Fraudu@123"
+}
+
+###Get method for user-login
+GET http://localhost:4000/user/login
+
+###Post method for createEvent
+POST http://localhost:4000/user/createEvent
+Content-Type: application/json
+
+{
+    "title":"Client call",
+    "participant":"Dineshkumar",
+    "startDate":"08-09-2023",
+    "endDate":"08-09-2023",
+    "time":"3.00 pm",
+    "description":"Discussion with client"
+}
+
+###Get method for createEvent
+GET http://localhost:4000/user/createEvent
